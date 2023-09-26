@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@font-face {
+  font-family: 'iconos';
+  src: url("../fonts/icomoon.eot?h54y8y");
+  src: url("../fonts/icomoon.eot?h54y8y#iefix") format('embedded-opentype'), url("../fonts/icomoon.ttf?h54y8y") format('truetype'), url("../fonts/icomoon.woff?h54y8y") format('woff'), url("../fonts/icomoon.svg?h54y8y#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+html {
+  font-family: 'Rubik', sans-serif;
+}
+html .purple {
+  background-color: #7711a7;
+}
+html body {
+  background-image: url("/backgrounds/bg-main-dark-1440w.jpg"), url("/backgrounds/bg-subtle-1-dark-1440w.jpg"), url("/backgrounds/bg-footer-dark-1440w.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center top, center, center bottom;
+}
+html body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+html body header h1 {
+  color: #e3e6ee;
+  font-size: 16px;
+}
+html body header h1 .cmd::before {
+  font-family: 'iconos';
+  content: '\ea81';
+  margin-right: 4px;
+  color: #7711a7;
+}
+html body header .center {
+  background-color: #0a0b11;
+  padding: 5px;
+  border-radius: 25px;
+  border: 1px solid #e3e6ee;
+  box-shadow: 0px 5px 10px -10px rgba(255,255,255,0.7);
+}
+html body header .center ul {
+  display: flex;
+  color: #e3e6ee;
+  padding: 2px;
+}
+html body header .center ul .purple {
+  border-radius: 15px;
+}
+html body header .center ul li {
+  margin: 0 5px;
+  padding: 8px;
+}
+html body header .socials {
+  display: flex;
+  margin-right: 20px;
+  font-family: 'iconos';
+}
+html body header .socials span {
+  margin: 0 5px;
+  color: #c460f6;
+}
+html body header .socials .twitter::before {
+  content: '\ea96';
+}
+html body header .socials .twitch::before {
+  content: '\ea9f';
+}
+html body header .socials .github::before {
+  content: '\eab0';
+}
+html body header .socials .codepen::before {
+  content: '\eae8';
+}
+html body header .socials .spotify::before {
+  content: '\ea94';
+}
+html body header .socials .youtube::before {
+  content: '\ea9d';
+}
+html body header .socials .tema {
+  background-color: #0a0b11;
+  border-radius: 15px;
+  padding: 2px;
+  color: #e3e6ee;
+}
+html body header .socials .tema .light::before {
+  content: '\e9d4';
+}
+html body header .socials .tema .dark::before {
+  content: '\e9d6';
+  color: #e3e6ee;
+  background-color: #7711a7;
+  border-radius: 15px;
+  padding: 0 2px;
+}
+html body .presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+html body .presentacion .texto {
+  margin: 0 100px;
+}
+html body .presentacion .texto h1 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #e3e6ee;
+  margin-bottom: 20px;
+}
+html body .presentacion .texto p {
+  font-size: 16px;
+  color: #a3acc8;
+  margin-bottom: 20px;
+}
+html body .presentacion .texto .actividades {
+  display: flex;
+}
+html body .presentacion .texto .actividades p {
+  color: #fff;
+  margin-right: 10px;
+  background-color: #7711a7;
+  padding: 10px;
+  border-radius: 30px;
+}
+html body .presentacion .texto .actividades p .code::before {
+  margin-right: 5px;
+  font-family: 'iconos';
+  content: '\ea80';
+}
+html body .presentacion .texto .actividades p .speaker::before {
+  margin-right: 5px;
+  font-family: 'iconos';
+  content: '\e91e';
+}
+html body .presentacion .texto .actividades p .writer::before {
+  margin-right: 5px;
+  font-family: 'iconos';
+  content: '\e906';
+}
+html body .presentacion .imagen {
+  margin: 0 10px;
+  margin-right: 100px;
+}
+html body .presentacion .imagen img {
+  width: 400px;
+  border-radius: 10%;
+  margin-right: 20px;
+}
+html body .skills {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body .skills .contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e3e6ee;
+  font-size: 28px;
+  border: 1px solid #797979;
+  border-radius: 10px;
+  margin: 0 120px;
+  padding: 20px;
+}
+html body .skills .contenedor h2 {
+  font-weight: 600;
+  margin: 10px 0;
+}
+html body .skills .contenedor p {
+  font-weight: 300;
+  color: #a3acc8;
+  font-size: 16px;
+}
+html body .skills .contenedor .fullstack .cmd::before {
+  font-family: 'iconos';
+  color: #7711a7;
+  content: '\ea81';
+}
+html body .skills .contenedor .industry .trophy::before {
+  font-family: 'iconos';
+  color: #7711a7;
+  content: '\e99e';
+}
+html body .skills .contenedor .strategy .plan::before {
+  font-family: 'iconos';
+  color: #7711a7;
+  content: '\e995';
+}
+html body .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #e3e6ee;
+}
+html body .work .description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html body .work .description .texto {
+  margin-right: 150px;
+}
+html body .work .description .texto h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+html body .work .description .texto p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #a3acc8;
+}
+html body .work .description button {
+  font-family: 'Rubik', sans-serif;
+  background-color: #7711a7;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  color: #e3e6ee;
+}
+html body .work .description button .derecha::before {
+  margin-left: 10px;
+  font-family: 'iconos';
+  content: '\ea3c';
+}
+html body .work .works {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+html body .work .works .left {
+  margin-top: 100px;
+}
+html body .work .works .duvet {
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+}
+html body .work .works .duvet img {
+  width: 70%;
+  border-radius: 20px;
+}
+html body .work .works .duvet .top-left {
+  position: absolute;
+  top: 16px;
+  left: 105px;
+  padding: 7px;
+  border-radius: 14px;
+  background-color: #0a0b11;
+  color: #a3acc8;
+}
+html body .mentions {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+html body .mentions h1 {
+  font-size: 56px;
+  font-weight: 600;
+  color: #e3e6ee;
+  margin-bottom: 25px;
+}
+html body .mentions p {
+  font-size: 16px;
+  color: #a3acc8;
+  margin-bottom: 25px;
+}
+html body .mentions div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  color: #e3e6ee;
+}
+html body .mentions div .fila {
+  display: flex;
+  flex-direction: row;
+}
+html body .mentions div .fila .mention {
+  padding: 60px 80px;
+  background-color: #2c2c2c;
+  border: 1px solid #a3acc8;
+  border-radius: 30px;
+  margin: 20px;
+}
+html body .contact {
+  padding: 60px;
+  color: #e3e6ee;
+  border-top: 1px solid #a3acc8;
+  border-bottom: 1px solid #a3acc8;
+  display: flex;
+  justify-content: space-around;
+}
+html body .contact h1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+html body .contact button {
+  font-family: 'Rubik', sans-serif;
+  background-color: #7711a7;
+  font-size: 24px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  color: #e3e6ee;
+}
+html body .contact button .send::before {
+  margin-left: 10px;
+  font-family: 'iconos';
+  content: '\e949';
+}
+html body footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+  color: #e3e6ee;
+}
+html body footer .left {
+  margin: 0 15px;
+  display: flex;
+}
+html body footer .left p {
+  margin: 0 5px;
+}
+html body footer .right {
+  display: flex;
+  margin: 0 15px;
+}
+html body footer .right p {
+  margin: 0 5px;
+}
